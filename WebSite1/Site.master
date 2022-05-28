@@ -46,7 +46,7 @@
             </Scripts>
         </asp:ScriptManager>
 
-                <div class="navbar navbar-inverse navbar-fixed-top ">
+                <div class="navbar navbar-inverse navbar-fixed-top " id="upper"  runat="server">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -57,7 +57,7 @@
                     <a class="navbar-brand " runat="server" href="~/"> <span style="font-family:Tajawal">برنامج طباعة قرارات الحرمانات</span> </a>
                 </div>
                 <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav" >
+                    <ul class="nav navbar-nav"  id="NavigationMenu" >
                         <li><a runat="server" href="~/Default2.aspx">Home</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>

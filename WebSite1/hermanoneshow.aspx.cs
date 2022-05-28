@@ -9,6 +9,8 @@ public partial class hermanoneshow : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+
+        //NavigationMenu
         XtraReport2 report = new XtraReport2();
 
         report.Parameters["seatno"].Value = Session["seatno"];

@@ -13,6 +13,13 @@ public partial class Default4 : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        //  NavigationMenu.Attributes["style"] = "display:none";
+
+        Control myControlMenu = Page.Master.FindControl("main-menu");
+        if (myControlMenu != null)
+        {
+            myControlMenu.Visible = false;
+        }
         XtraReport1 report = new XtraReport1();
 
         report.Parameters["full_name"].Value = Session["full_name"];

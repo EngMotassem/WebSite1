@@ -6,6 +6,9 @@
 
                     <div class="col-sm-6 ">
                         <br />
+                      <asp:Label ID="Label24" runat="server" ForeColor="#339933"></asp:Label> 
+
+
                         <br />
 
                         <asp:Calendar ID="Calendar1" runat="server" BackColor="White" BorderColor="Black" BorderStyle="Solid" CellSpacing="1" Font-Names="Verdana" Font-Size="9pt" ForeColor="Black" Height="250px" NextPrevFormat="ShortMonth" Width="330px">
@@ -90,6 +93,11 @@
                                 <asp:ListItem Value="4">نموذج 7 يعمل به في الفترة  الدراسية الأولى والثانية </asp:ListItem>
                             </asp:DropDownList>
                         <p >
+                      <asp:Label ID="Label23" runat="server" Text=""></asp:Label> 
+
+
+                        <p >
+                            &nbsp;<p >
 
                             <asp:TextBox ID="repotDescTxt" runat="server" Height="174px" Width="482px" Rows="10" TextMode="MultiLine"></asp:TextBox>
             <p>

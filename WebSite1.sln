@@ -25,8 +25,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite1(1)", "WebSite1\", 
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "printSystem", "..\..\..\Desktop\desktop apps\herman  first period-20190103T044244Z-001\herman  first period\herman  first period\printSystem\printSystem.csproj", "{C450ED77-2A4A-438C-8B51-1B6D1650E1E0}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,10 +35,6 @@ Global
 		{59A9BBB6-816A-4484-AF13-885722B84CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59A9BBB6-816A-4484-AF13-885722B84CEE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{59A9BBB6-816A-4484-AF13-885722B84CEE}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{C450ED77-2A4A-438C-8B51-1B6D1650E1E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C450ED77-2A4A-438C-8B51-1B6D1650E1E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C450ED77-2A4A-438C-8B51-1B6D1650E1E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C450ED77-2A4A-438C-8B51-1B6D1650E1E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
